@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LastMvp.iml" filepath="$PROJECT_DIR$/LastMvp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp_retrofit/mvp_retrofit.iml" filepath="$PROJECT_DIR$/mvp_retrofit/mvp_retrofit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp_retrofit_rxjava/mvp_retrofit_rxjava.iml" filepath="$PROJECT_DIR$/mvp_retrofit_rxjava/mvp_retrofit_rxjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp_v1/mvp_v1.iml" filepath="$PROJECT_DIR$/mvp_v1/mvp_v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp_v2/mvp_v2.iml" filepath="$PROJECT_DIR$/mvp_v2/mvp_v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvp_v3/mvp_v3.iml" filepath="$PROJECT_DIR$/mvp_v3/mvp_v3.iml" />
+    </modules>
+  </component>
+</project>

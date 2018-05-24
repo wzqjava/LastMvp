@@ -1,0 +1,13 @@
+<resources>
+
+    <declare-styleable name="MyViewGroup">
+        <attr name="orientation" format="integer"/>
+        <attr name="ori" format="enum">
+            <enum name="horizontal" value="1"/>
+            <enum name="vertical" value="0"/>
+            <enum name= "all" value="2"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>

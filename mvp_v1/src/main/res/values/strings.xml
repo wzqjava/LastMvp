@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MVP_v1</string>
+    <string name="api_error_msg">错误</string>
+
+</resources>
