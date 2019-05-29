@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements MvpView  {
         progressDialog = new ProgressDialog(this);
         progressDialog.setCancelable(false);
         progressDialog.setMessage("正在加载数据");
-        //初始化Presenter
+        //初始化Presenter,传入view
         presenter = new MvpPresenter(this);
     }
     // button 点击事件调用方法
@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements MvpView  {
     public void getDataForError(View view){
         presenter.getData("error");
     }
+
     @Override
     public void showLoading() {
         if (!progressDialog.isShowing()) {
@@ -52,10 +53,12 @@ public class MainActivity extends AppCompatActivity implements MvpView  {
             progressDialog.dismiss();
         }
     }
+
     @Override
     public void showData(String data) {
         text.setText(data);
     }
+
     @Override
     public void showFailureMessage(String msg) {
         Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();

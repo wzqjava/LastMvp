@@ -6,6 +6,7 @@ package com.wzq.mvpdemo.base;
  */
 
 public class DataModel {
+
     public static BaseModel request(String token){
         // 声明一个空的BaseModel
         BaseModel model = null;

@@ -33,6 +33,7 @@ public class BasePresenter <V extends IBaseView> {
     public boolean isViewAttached(){
         return mvpView != null;
     }
+
     /**
      * 获取连接的view
      */

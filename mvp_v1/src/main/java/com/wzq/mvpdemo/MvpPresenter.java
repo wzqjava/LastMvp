@@ -38,6 +38,7 @@ public class MvpPresenter {
                 //调用view接口提示请求异常
                 mView.showErrorMessage();
             }
+
             @Override
             public void onComplete() {
                 // 隐藏正在加载进度条
