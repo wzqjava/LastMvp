@@ -34,7 +34,6 @@ public class MyFragment extends BaseFragment implements IMvpView {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
         testRetrofitPresenter = new TestRetrofitPresenter();
         testRetrofitPresenter.attachView(this);
         btn.setOnClickListener(new View.OnClickListener() {

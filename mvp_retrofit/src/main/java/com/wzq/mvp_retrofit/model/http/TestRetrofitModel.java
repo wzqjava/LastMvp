@@ -32,6 +32,7 @@ public class TestRetrofitModel extends BaseModel<String> {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://fy.iciba.com/") // 设置 网络请求 Url
                 .addConverterFactory(GsonConverterFactory.create()) //设置使用Gson解析(记得加入依赖)
+//                .client(null) //添加okclient
                 .build();
 
         // 步骤5:创建 网络请求接口 的实例

@@ -1,1 +1,1 @@
-include ':app', ':mvp_v1', ':mvp_v2',':mvp_v3', ':mvp_retrofit','mvp_retrofit_rxjava'
+include ':mvp_caojun', ':mvp_v1', ':mvp_v2', ':mvp_v3', ':mvp_retrofit', 'mvp_retrofit_rxjava', ':common_changyun'

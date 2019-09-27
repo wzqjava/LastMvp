@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dark_rect_23"
+    android:gravity="center"
+    android:lineSpacingExtra="8sp"
+    android:minWidth="140dp"
+    android:minHeight="45dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:textColor="#ffffff"
+    android:textSize="12sp"
+    tools:text="Normal model" />

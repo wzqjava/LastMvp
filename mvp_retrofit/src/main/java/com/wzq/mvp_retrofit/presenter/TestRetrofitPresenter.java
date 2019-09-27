@@ -24,7 +24,7 @@ public class TestRetrofitPresenter extends BasePresenter<IMvpView> {
     public void getData(String params){
         //显示正在加载进度条
         getView().showLoading();
-        // 调用Model请求数据
+        // 调用Model请求数据,目前调用的是TestRetrofitModel
         DataModelReflex   //model层的顶级分发类;
                 .request(DataModelToken.API_RETROFIT_GET)   //利用反射获得对应MVP_Model对象的引用,运行时这个是MvpModel;
                 .params(params) //添加请求参数;

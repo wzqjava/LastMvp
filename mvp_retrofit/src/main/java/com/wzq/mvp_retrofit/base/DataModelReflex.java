@@ -6,6 +6,7 @@ package com.wzq.mvp_retrofit.base;
  */
 
 public class DataModelReflex {
+
     public static BaseModel request(String token){
         // 声明一个空的BaseModel
         BaseModel model = null;

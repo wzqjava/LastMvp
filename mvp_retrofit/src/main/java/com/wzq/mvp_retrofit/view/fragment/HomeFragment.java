@@ -55,10 +55,10 @@ public class HomeFragment extends BaseFragment implements IMvpView {
         retrofitPostPresenter = new RetrofitPostPresenter();
         testRetrofitPresenter.attachView(this);
         retrofitPostPresenter.attachView(this);
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                testRetrofitPresenter.getData("normal");  //测试假数据;
                 /**
                  * 用retrofit请求网络
                  *   步骤1：添加Retrofit库的依赖

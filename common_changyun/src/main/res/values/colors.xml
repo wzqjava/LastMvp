@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="grey">#aaaaaa</color>
+    <color name="scroll_bar">#eaecef</color>
+    <color name="default_shadow_color">#88757575</color>
+    <color name="default_fill_color">#ffffff</color>
+    <color name="charcoal_grey">#353a45</color>
+    <color name="cherry_red">#f70032</color>
+    <color name="pale_grey">#f6f7fa</color>
+    <color name="pale_grey_two_15">#26eaecef</color>
+    <color name="pale_grey_two">#f2f3f5</color>
+    <color name="account_gray">@color/blue_grey</color>
+    <color name="pink">#ca203a</color>
+    <color name="dark">#1b1e25</color>
+    <color name="blue_grey">#9ca0ab</color>
+    <color name="bluey_grey">#9ca0ab</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="trans_overlay">#80000000</color>
+    <color name="lightish_red">#ff3a4f</color>
+    <color name="lightish_red_01">#19ff3a4f</color>
+    <color name="lightish_red_014">#23ff3a4f</color>
+    <color name="tea">#5caf95</color>
+    <color name="default_channel_color">#767982</color>
+    <color name="black">#000000</color>
+    <color name="cyan">#ecfde1</color>
+    <color name="time_line_gray">#5f5f5f</color>
+    <color name="gray_time_bg">#d8d8d8</color>
+    <color name="gray_time_line_bg">#2e3037</color>
+    <color name="time_line_font_gray">#ACADAF</color>
+
+
+</resources>

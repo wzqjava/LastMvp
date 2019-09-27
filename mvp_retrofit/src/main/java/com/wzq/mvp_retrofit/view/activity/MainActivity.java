@@ -43,6 +43,7 @@ public class MainActivity extends BaseActivity implements IMvpView {
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             FragmentManager fragmentManager = getFragmentManager();
             hideFragments(fragmentManager);
+
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     if (homeFragment != null) {
@@ -76,6 +77,7 @@ public class MainActivity extends BaseActivity implements IMvpView {
 
     private void hideFragments(FragmentManager fragmentManager){
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+
         if (homeFragment != null) {
             fragmentTransaction.hide(homeFragment);
         }if (dashboardFragment != null) {
